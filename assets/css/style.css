@@ -8,8 +8,9 @@
 }
 
 .container {
-    width: 68%;
+    max-width: 1208px;
     margin: 0 auto;
+    padding: 0 25px;
 }
 
 #header_top {
@@ -22,401 +23,51 @@
     background-color: antiquewhite;
 }
 
-#first_section_ {
-    background-image: url("https://evisa.xpressbuddy.com/wp-content/uploads/2023/12/breadcrumb_bg.jpg");
-    background-repeat: no-repeat;
-    height: 450px;
-}
-
-#first_section_ .container {
-    height: 440px;
+#scnd_sec .container {
     display: flex;
-    align-items: center;
 }
 
-#first_section_text {
-    width: 630px;
-}
-
-#first_section_text h1 {
-    font-size: 60px;
+#scnd_sec h2 {
+    font-size: 50px;
     font-weight: 700;
-    margin-bottom: 15px;
-    letter-spacing: -1px;
-    line-height: 86px;
-    color: #0F172A;
-}
-
-#contries_div {
-    width: 191px;
-    height: 42px;
-    background-color: white;
-    padding: 10px 20px;
-}
-
-.links_for span {
-    margin: 0 4px;
-    font-weight: 700;
-    color: black;
-    font-size: 14px;
-}
-
-#contries_div p {
+    line-height: 1.2;
+    letter-spacing: -1.5px;
     display: inline-block;
-    margin-left: 1px;
-    font-weight: 700;
-    color: rgba(33, 37, 41, 0.75);
-    font-size: 14px;
+    padding: 0px 0px 30px 0px;
+    margin-top: 120px;
 }
 
-#main_second_section {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-top: 120px;
-    gap: 50px;
+#scnd_sec h2 span {
+    color: #58595E;
 }
 
-#second_section_ {
-    width: 58%;
-}
-
-#text_foto_second_sec h2 {
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: -1px;
+#img_sec_questions span {
     color: #0F172A;
-    margin-bottom: 25px;
-}
-
-#text_foto_second_sec h4 {
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: -0.72px;
-    line-height: 1.3;
-    color: #0F172A;
-}
-
-#text_foto_second_sec {
-    width: 85%;
-}
-
-#text_foto_second_sec p {
-    color: #787B84;
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-weight: 600;
     font-size: 20px;
-    font-weight: 500;
-    line-height: 32px;
+    cursor: pointer;
+    padding: 29px 40px;
+    padding-right: 70px;
+}
+
+#scnd_sec p {
+    font-size: 20px;
+    line-height: 28px;
     letter-spacing: -0.2px;
-    margin-top: 20px;
+    font-weight: 500;
+    color: #787b84;
 }
 
-#img_second_sec {
-    margin-top: 60px;
-    margin-bottom: 50px;
+#img_country_questions {
+    margin-top: 90px;
 }
 
-#img_second_sec img {
-    width: 100%;
-}
-
-.boxes_choose {
-    width: 45%;
-    height: 109px;
+#ul_questions li {
     border: 1px solid #EDF3F5;
-    margin: 15px;
-    border-radius: 10px;
-    padding: 30px 25px;
-    position: relative;
-    transition: 0.3s;
-    display: flex;
-}
-
-.boxes_choose::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 4px;
-    height: 47px;
-    background-color: #FE6C3F;
-    transform: translateY(-50%);
-}
-
-#flx_second_sec {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-}
-
-.blue::before {
-    background-color: #1496F8;
-}
-
-.green::before {
-    background-color: #00CC99;
-}
-
-.yellow::before {
-    background-color: #FFBD0F;
-}
-
-.svg_icon {
-    width: 47px;
-    height: 47px;
-    border-radius: 50%;
-    background-color: rgba(254, 108, 63, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 15px;
-}
-
-.boxes_choose h3 {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: -0.6px;
-    margin-bottom: 0;
-}
-
-.text_center_second_sec {
-    display: flex;
-    align-items: center;
-}
-
-#foto_and_text_universitets {
-    margin-top: 25px;
-    display: flex;
-    gap: 60px;
-}
-
-#stars_universitets {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-#stars_universitets span {
-    font-size: 20px;
-    color: #787B84;
-    font-weight: 500;
-    padding-left: 5px;
-}
-
-#main_second_section aside {
-    width: 30%;
-}
-
-.aside_second_sec {
-    background-color: #EDF3F5;
-    padding: 30px 40px;
-    width: 100%;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
-.country_item {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.country_item li {
-    width: 100%;
-    height: 68px;
-}
-
-.country_item a {
-    display: flex;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
-    color: #787B84;
-    background-color: white;
-    padding: 11px 20px;
-    border-radius: 10px;
-    font-weight: 500;
-}
-
-.img_country img {
-    width: 34px;
-    height: 34px;
-    margin-top: 10px;
-}
-
-#pluss_country {
-    color: #0F172A;
-    font-size: 14px;
-    width: 34px;
-    height: 34px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background-color: #EDF3F5;
-}
-
-.margin {
-    margin-top: 50px;
-}
-
-.aside_second_sec h3 {
-    font-size: 24px;
-    color: #0F172A;
-    margin-bottom: 25px;
-    font-weight: 600;
-}
-
-#downloads_div {
-    display: flex;
-    gap: 20px;
-}
-
-#downloads_div li {
-    width: 50%;
-    background-color: white;
-    text-align: center;
-    padding: 10px 10px;
-    border-radius: 10px;
-    padding-bottom: 0px;
-    height: 190px;
-}
-
-.pdf_icon {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #00CC99;
-    margin: 0 auto 15px;
-    border-radius: 50%;
-}
-
-#downloads_div a {
-    text-align: center;
-    padding: 10px 10px;
-    padding-bottom: 0px;
-}
-
-#downloads_div a h4 {
-    font-size: 15px;
-    line-height: 22px;
-    letter-spacing: -0.16px;
-    margin-bottom: 15px;
-    font-weight: 600;
-    color: #0F172A;
-}
-
-.down_icon {
-    color: #787B84;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: -0.14px;
-    border-top: 1px solid #EDF3F5;
-    border-top-color: rgb(237, 243, 245);
-    margin: 0 -10px;
-    padding: 4px;
-}
-
-@media only screen and (max-width: 1400px) {
-    #foto_and_text_universitets {
-        margin-top: 5px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    #stars_universitets {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .boxes_choose {
-        width: 100%;
-    }
-    #second_section_ {
-        width: 55%;
-    }
-    #main_second_section aside {
-        width: 50%;
-        padding: 0px 15px 0px 15px;
-    }
-    #text_foto_second_sec {
-        width: 95%;
-    }
-    .container {
-        width: 95%;
-        margin: 0 auto;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    #main_second_section {
-        display: flex;
-        flex-direction: column;
-        padding-top: 120px;
-        gap: 20px;
-    }
-    #second_section_ {
-        width: 90%;
-        margin: 0 auto;
-    }
-    #img_girl {
-        width: 50%;
-        margin-top: 20px;
-    }
-    #img_girl img {
-        width: 100%;
-    }
-    #foto_and_text_universitets {
-        margin-top: 5px;
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-    }
-    #stars_universitets {
-        justify-content: center;
-        flex-direction: column;
-        gap: 15px;
-    }
-    #main_second_section aside {
-        width: 100%;
-        padding: 0px 15px 0px 15px;
-    }
-    #first_section_text h1 {
-        font-size: 32px;
-    }
-}
-
-@media only screen and (max-width: 780px) {
-    #foto_and_text_universitets {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-    #img_girl {
-        width: 100%;
-        margin-top: 20px;
-    }
-    .aside_second_sec {
-        background-color: #EDF3F5;
-        padding: 20px 30px;
-        width: 100%;
-        border-radius: 20px;
-    }
-    #downloads_div a h4 {
-        font-size: 12px;
-        line-height: 22px;
-        letter-spacing: -0.16px;
-        margin-bottom: 15px;
-        font-weight: 600;
-        color: #0F172A;
-    }
+#img_sec_questions {
+    margin-top: 130px;
 }
